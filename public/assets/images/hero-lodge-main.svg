@@ -1,0 +1,68 @@
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente de cielo tropical -->
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#98D8E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F8FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente de vegetación -->
+    <linearGradient id="forest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#32CD32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente de edificio -->
+    <linearGradient id="building" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CD853F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cielo -->
+  <rect width="1200" height="300" fill="url(#sky)"/>
+  
+  <!-- Montañas/colinas de fondo -->
+  <path d="M0,250 Q200,180 400,220 T800,200 T1200,240 L1200,300 L0,300 Z" fill="#2F4F2F" opacity="0.6"/>
+  <path d="M0,280 Q300,220 600,260 T1200,280 L1200,300 L0,300 Z" fill="#228B22" opacity="0.4"/>
+  
+  <!-- Vegetación tropical (palmas) -->
+  <ellipse cx="150" cy="280" rx="30" ry="80" fill="#006400" opacity="0.7"/>
+  <ellipse cx="140" cy="260" rx="25" ry="60" fill="#228B22" opacity="0.6"/>
+  <ellipse cx="160" cy="260" rx="25" ry="60" fill="#228B22" opacity="0.6"/>
+  
+  <ellipse cx="950" cy="290" rx="35" ry="90" fill="#006400" opacity="0.7"/>
+  <ellipse cx="935" cy="270" rx="30" ry="70" fill="#228B22" opacity="0.6"/>
+  <ellipse cx="965" cy="270" rx="30" ry="70" fill="#228B22" opacity="0.6"/>
+  
+  <!-- Suelo/pasto -->
+  <rect x="0" y="300" width="1200" height="300" fill="url(#forest)" opacity="0.3"/>
+  
+  <!-- Lodge principal (estructura simple) -->
+  <rect x="450" y="350" width="300" height="120" fill="url(#building)" opacity="0.8" rx="5"/>
+  <polygon points="430,350 580,280 730,350" fill="#8B4513" opacity="0.9"/>
+  
+  <!-- Detalles del lodge -->
+  <rect x="480" y="380" width="40" height="60" fill="#654321" opacity="0.8"/>
+  <rect x="680" y="380" width="40" height="60" fill="#654321" opacity="0.8"/>
+  <rect x="570" y="420" width="60" height="50" fill="#4A4A4A" opacity="0.7"/>
+  
+  <!-- Vegetación alrededor del lodge -->
+  <circle cx="400" cy="450" r="40" fill="#32CD32" opacity="0.6"/>
+  <circle cx="380" cy="430" r="30" fill="#228B22" opacity="0.7"/>
+  <circle cx="800" cy="460" r="45" fill="#32CD32" opacity="0.6"/>
+  <circle cx="820" cy="440" r="35" fill="#228B22" opacity="0.7"/>
+  
+  <!-- Sendero -->
+  <path d="M300,500 Q450,480 600,490 T900,500" stroke="#8B7355" stroke-width="20" fill="none" opacity="0.4"/>
+  
+  <!-- Efecto de luz/bruma tropical -->
+  <rect width="1200" height="600" fill="url(#sky)" opacity="0.1"/>
+  
+  <!-- Puntos de luz (simulando luz solar filtrándose) -->
+  <circle cx="200" cy="150" r="3" fill="#FFE4B5" opacity="0.8"/>
+  <circle cx="800" cy="180" r="2" fill="#FFE4B5" opacity="0.6"/>
+  <circle cx="1000" cy="120" r="2" fill="#FFE4B5" opacity="0.7"/>
+</svg>

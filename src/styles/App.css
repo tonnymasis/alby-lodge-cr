@@ -1,0 +1,63 @@
+/* App Component Styles */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App main {
+  flex: 1;
+}
+
+/* Smooth scrolling enhancement */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Performance optimization for animations */
+* {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+/* Global loading state */
+.loading {
+  pointer-events: none;
+  opacity: 0.7;
+  cursor: wait;
+}
+
+/* Skip to content link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: var(--space-sm) var(--space-md);
+  z-index: var(--z-tooltip);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  font-weight: var(--fw-medium);
+  transition: var(--transition-fast);
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+/* Print styles */
+@media print {
+  .App {
+    color: black;
+    background: white;
+  }
+  
+  /* Hide navigation and non-essential elements when printing */
+  .header,
+  .footer,
+  .hero__actions,
+  .contact__form {
+    display: none;
+  }
+}

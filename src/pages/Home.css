@@ -1,0 +1,11 @@
+/* Home Page Styles */
+.home {
+  min-height: 100vh;
+  padding-top: 70px; /* Account for fixed header */
+}
+
+@media (min-width: 768px) {
+  .home {
+    padding-top: 80px;
+  }
+}

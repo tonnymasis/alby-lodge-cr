@@ -1,0 +1,6 @@
+<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="80" fill="#1a5f4f" rx="5"/>
+  <text x="100" y="30" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">ALBY</text>
+  <text x="100" y="50" font-family="Arial" font-size="12" text-anchor="middle" fill="white">LODGE</text>
+  <text x="100" y="65" font-family="Arial" font-size="8" text-anchor="middle" fill="#a0c4a0">Cahuita, Costa Rica</text>
+</svg>

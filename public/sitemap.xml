@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Página principal -->
+  <url>
+    <loc>https://albylodge.com/</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://albylodge.com/assets/images/lodge-hero.jpg</image:loc>
+      <image:title>Alby Lodge - Lodge Principal</image:title>
+      <image:caption>Vista del lodge principal en Cahuita, Costa Rica</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Sección Habitaciones -->
+  <url>
+    <loc>https://albylodge.com/#rooms</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://albylodge.com/assets/images/rooms/bungalow-deluxe-exterior.jpg</image:loc>
+      <image:title>Bungalow Deluxe</image:title>
+      <image:caption>Bungalow deluxe con vista al jardín tropical</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Sección Servicios -->
+  <url>
+    <loc>https://albylodge.com/#services</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección Experiencias -->
+  <url>
+    <loc>https://albylodge.com/#experiences</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://albylodge.com/assets/images/experiences/cahuita-national-park.jpg</image:loc>
+      <image:title>Parque Nacional Cahuita</image:title>
+      <image:caption>Senderos del Parque Nacional Cahuita</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Galería -->
+  <url>
+    <loc>https://albylodge.com/#gallery</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Ubicación -->
+  <url>
+    <loc>https://albylodge.com/#location</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contacto -->
+  <url>
+    <loc>https://albylodge.com/#contact</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>

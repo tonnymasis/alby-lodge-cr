@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://albylodge.com/sitemap.xml
+
+# Archivos que no deben ser indexados
+Disallow: /admin/
+Disallow: /_redirects
+Disallow: /.well-known/
+
+# Crawler-specific instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot  
+Allow: /
+
+# Block AI training bots (optional)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Crawl-delay for specific bots
+User-agent: *
+Crawl-delay: 1
