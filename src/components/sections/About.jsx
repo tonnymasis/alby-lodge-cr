@@ -98,21 +98,21 @@ const About = () => {
             <div className="about__image-grid">
               <div className="about__image about__image--main">
                 <img 
-                  src="/assets/images/about-lodge-exterior.png" 
+                  src="./assets/images/about-lodge-exterior.png" 
                   alt="Exterior del Alby Lodge rodeado de naturaleza"
                   className="about__img"
                 />
               </div>
               <div className="about__image about__image--secondary">
                 <img 
-                  src="/assets/images/about-tropical-garden.png" 
+                  src="./assets/images/about-tropical-garden.png" 
                   alt="Jardín tropical del lodge"
                   className="about__img"
                 />
               </div>
               <div className="about__image about__image--tertiary">
                 <img 
-                  src="/assets/images/about-cahuita-beach.jpeg" 
+                  src="./assets/images/about-cahuita-beach.jpeg" 
                   alt="Playa de Cahuita cerca del lodge"
                   className="about__img"
                 />

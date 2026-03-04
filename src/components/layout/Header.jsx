@@ -38,7 +38,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="nav__logo" onClick={() => scrollToSection('hero')}>
             <img 
-              src="/assets/images/alby-lodge-logo.svg" 
+              src="./assets/images/alby-lodge-logo.svg" 
               alt="Alby Lodge Logo" 
               className="nav__logo-img"
             />

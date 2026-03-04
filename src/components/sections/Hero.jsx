@@ -28,7 +28,7 @@ const Hero = () => {
       <div className="hero__background">
         <div className="hero__image">
           <img 
-            src="/assets/images/hero-lodge-main.png" 
+            src="./assets/images/hero-lodge-main.png" 
             alt="Alby Lodge - Vista principal del lodge en Cahuita"
             className="hero__bg-img"
           />

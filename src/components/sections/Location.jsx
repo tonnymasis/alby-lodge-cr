@@ -92,7 +92,7 @@ const Location = () => {
               {/* Placeholder para mapa interactivo */}
               <div className="location__map-placeholder">
                 <img 
-                  src="/assets/images/location/cahuita-map-overview.svg"
+                  src="./assets/images/location/cahuita-map-overview.svg"
                   alt="Mapa de ubicación de Alby Lodge en Cahuita"
                   className="location__map-img"
                 />

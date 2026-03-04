@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="footer__brand">
               <div className="footer__logo">
                 <img 
-                  src="/assets/images/alby-lodge-logo-white.svg" 
+                  src="./assets/images/alby-lodge-logo-white.svg" 
                   alt="Alby Lodge Logo" 
                   className="footer__logo-img"
                 />
