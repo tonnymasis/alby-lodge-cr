@@ -1,0 +1,11 @@
+# Favicon placeholder
+# Este archivo debe ser reemplazado por un favicon.ico real
+# Se puede generar usando herramientas online como:
+# - https://favicon.io/
+# - https://realfavicongenerator.net/
+
+# Para generar el favicon:
+# 1. Usar el logo de Alby Lodge
+# 2. Crear versiones de 16x16, 32x32, 48x48 píxeles
+# 3. Generar también apple-touch-icon.png (180x180)
+# 4. Reemplazar este archivo con el favicon.ico generado
