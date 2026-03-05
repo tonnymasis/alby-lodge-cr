@@ -2,9 +2,12 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
+// Detectar si estamos en GitHub Pages
+const isGitHubPages = process.env.GITHUB_REPOSITORY || process.env.GITHUB_ACTIONS
+
 export default defineConfig({
   plugins: [react()],
-  base: '/alby-lodge-cr/',
+  base: isGitHubPages ? '/alby-lodge-cr/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
