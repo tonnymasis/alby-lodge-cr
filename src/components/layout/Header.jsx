@@ -67,30 +67,6 @@ const Header = () => {
               <li className="nav__item">
                 <button 
                   className="nav__link"
-                  onClick={() => scrollToSection('services')}
-                >
-                  Servicios
-                </button>
-              </li>
-              <li className="nav__item">
-                <button 
-                  className="nav__link"
-                  onClick={() => scrollToSection('experiences')}
-                >
-                  Experiencias
-                </button>
-              </li>
-              <li className="nav__item">
-                <button 
-                  className="nav__link"
-                  onClick={() => scrollToSection('gallery')}
-                >
-                  Galería
-                </button>
-              </li>
-              <li className="nav__item">
-                <button 
-                  className="nav__link"
                   onClick={() => scrollToSection('contact')}
                 >
                   Contacto

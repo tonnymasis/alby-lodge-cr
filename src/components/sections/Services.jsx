@@ -77,30 +77,6 @@ const Services = () => {
     }
   ]
 
-  const premiumServices = [
-    {
-      title: 'Tour Nocturno de Vida Silvestre',
-      description: 'Descubre la fascinante vida nocturna del bosque tropical',
-      price: 'Desde $45',
-      duration: '2 horas',
-      image: '/assets/images/services/night-tour.jpg'
-    },
-    {
-      title: 'Expedición al Volcán Arenal',
-      description: 'Día completo explorando uno de los volcanes más activos de Costa Rica',
-      price: 'Desde $120',
-      duration: 'Día completo',
-      image: '/assets/images/services/arenal-tour.jpg'
-    },
-    {
-      title: 'Aventura en Canopy',
-      description: 'Vive la adrenalina volando entre las copas de los árboles',
-      price: 'Desde $65',
-      duration: '3 horas',
-      image: '/assets/images/services/canopy-tour.jpg'
-    }
-  ]
-
   return (
     <section id="services" className="services">
       <div className="services__container">
@@ -143,48 +119,6 @@ const Services = () => {
               </ul>
             </div>
           ))}
-        </div>
-
-        {/* Premium Services */}
-        <div className="services__premium">
-          <div className="services__premium-header">
-            <h3 className="services__premium-title">Experiencias Premium</h3>
-            <p className="services__premium-description">
-              Tours especiales y actividades exclusivas para hacer de tu visita una experiencia única
-            </p>
-          </div>
-
-          <div className="services__premium-grid">
-            {premiumServices.map((service, index) => (
-              <div key={index} className="services__premium-card">
-                <div className="services__premium-image">
-                  <img 
-                    src={service.image} 
-                    alt={service.title}
-                    className="services__premium-img"
-                  />
-                  <div className="services__premium-overlay">
-                    <span className="services__premium-price">{service.price}</span>
-                  </div>
-                </div>
-                
-                <div className="services__premium-content">
-                  <h4 className="services__premium-name">{service.title}</h4>
-                  <p className="services__premium-desc">{service.description}</p>
-                  
-                  <div className="services__premium-details">
-                    <span className="services__premium-duration">
-                      <i className="icon" data-icon="clock"></i>
-                      {service.duration}
-                    </span>
-                    <button className="services__premium-btn">
-                      Más información
-                    </button>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
 
         {/* Service Benefits */}

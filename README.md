@@ -15,10 +15,11 @@ Sitio web oficial del lodge turístico Alby Lodge, ubicado en Cahuita, Costa Ric
 ## 🚀 Tecnologías Utilizadas
 
 - **React 18**: Framework principal
-- **Vite**: Herramientas de desarrollo y build
+- **Vite**: Herramientas de desarrollo y build  
 - **CSS Modules**: Estilos modulares y responsive
 - **React Router**: Navegación entre páginas
 - **JavaScript ES6+**: Funcionalidades modernas
+- **Google Maps API**: Mapa interactivo de ubicación
 
 ## 📋 Prerequisitos
 
@@ -49,6 +50,31 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
    ```
    http://localhost:3000
    ```
+
+## 🗺️ Configuración de Google Maps
+
+Este proyecto incluye un mapa interactivo de Google Maps para mostrar la ubicación exacta de Alby Lodge.
+
+### Configuración rápida:
+
+1. **Obtén una API Key de Google Maps**:
+   - Ve a [Google Cloud Console](https://console.cloud.google.com/)
+   - Habilita la Maps JavaScript API
+   - Crea credenciales (API Key)
+
+2. **Configura las variables de entorno**:
+   ```bash
+   cp .env.example .env
+   ```
+
+3. **Edita el archivo `.env`**:
+   ```env
+   VITE_GOOGLE_MAPS_API_KEY=tu_api_key_aquí
+   ```
+
+📋 **Para instrucciones detalladas**, consulta [GOOGLE_MAPS_SETUP.md](./GOOGLE_MAPS_SETUP.md)
+
+> **Nota**: El mapa funcionará sin API key mostrando un mensaje de error elegante con información de ubicación alternativa.
 
 ## 📁 Estructura del Proyecto
 

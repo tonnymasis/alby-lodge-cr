@@ -98,30 +98,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <button 
-                    onClick={() => scrollToSection('services')}
-                    className="footer__link"
-                  >
-                    Servicios
-                  </button>
-                </li>
-                <li>
-                  <button 
-                    onClick={() => scrollToSection('experiences')}
-                    className="footer__link"
-                  >
-                    Experiencias
-                  </button>
-                </li>
-                <li>
-                  <button 
-                    onClick={() => scrollToSection('gallery')}
-                    className="footer__link"
-                  >
-                    Galería
-                  </button>
-                </li>
-                <li>
-                  <button 
                     onClick={() => scrollToSection('contact')}
                     className="footer__link"
                   >
@@ -150,31 +126,6 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
-            </div>
-
-            {/* Newsletter */}
-            <div className="footer__newsletter">
-              <h4 className="footer__title">Newsletter</h4>
-              <p className="footer__newsletter-text">
-                Recibe ofertas especiales y noticias del lodge
-              </p>
-              <form className="footer__newsletter-form" onSubmit={(e) => {
-                e.preventDefault()
-                alert('¡Gracias por suscribirte!')
-              }}>
-                <input 
-                  type="email" 
-                  placeholder="Tu email"
-                  className="footer__newsletter-input"
-                  aria-label="Email para newsletter"
-                />
-                <button 
-                  type="submit"
-                  className="footer__newsletter-btn"
-                >
-                  Suscribirse
-                </button>
-              </form>
             </div>
           </div>
 

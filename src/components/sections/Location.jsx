@@ -1,4 +1,5 @@
 import React from 'react'
+import GoogleMap from '../ui/GoogleMap'
 import './Location.css'
 
 const Location = () => {
@@ -89,20 +90,40 @@ const Location = () => {
           {/* Map Section */}
           <div className="location__map-section">
             <div className="location__map">
-              {/* Placeholder para mapa interactivo */}
-              <div className="location__map-placeholder">
-                <img 
-                  src="./assets/images/location/cahuita-map-overview.svg"
-                  alt="Mapa de ubicación de Alby Lodge en Cahuita"
-                  className="location__map-img"
-                />
-                <div className="location__map-overlay">
-                  <div className="location__map-marker">
-                    <i className="icon" data-icon="map-pin"></i>
-                    <span className="location__map-label">Alby Lodge</span>
-                  </div>
-                </div>
-              </div>
+              <GoogleMap
+                apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY || ''}
+                center={{
+                  lat: 9.73489021769845,
+                  lng: -82.83960511714805
+                }}
+                zoom={16}
+                height="400px"
+                markers={[
+                  {
+                    position: {
+                      lat: 9.73489021769845,
+                      lng: -82.83960511714805
+                    },
+                    title: 'Alby Lodge',
+                    infoWindow: `
+                      <div style="padding: 15px; min-width: 250px;">
+                        <h3 style="margin: 0 0 10px 0; color: #2c5530; font-size: 18px; font-weight: bold;">Alby Lodge</h3>
+                        <p style="margin: 0 0 10px 0; color: #666; line-height: 1.4;">
+                          Lodge eco-turístico en el corazón de Cahuita, Costa Rica
+                        </p>
+                        <div style="border-top: 1px solid #eee; padding-top: 10px; margin-top: 10px;">
+                          <p style="margin: 0; color: #888; font-size: 14px;">
+                            <strong>📍</strong> A 200m del Parque Nacional Cahuita<br>
+                            <strong>📞</strong> +506 8438 1874<br>
+                            <strong>✉️</strong> info@albylodge.com
+                          </p>
+                        </div>
+                      </div>
+                    `
+                  }
+                ]}
+                className="location__google-map"
+              />
             </div>
 
             {/* Address & Contact */}
@@ -123,7 +144,7 @@ const Location = () => {
                   <i className="location__icon" data-icon="navigation"></i>
                   <div className="location__address-content">
                     <strong>Coordenadas GPS:</strong>
-                    <span>9.7319° N, 82.8421° W</span>
+                    <span>9.73489° N, 82.83961° W</span>
                   </div>
                 </div>
 

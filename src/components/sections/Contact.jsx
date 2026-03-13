@@ -389,17 +389,6 @@ const Contact = () => {
                 </Button>
               </div>
             </div>
-
-            {/* Cancellation Policy */}
-            <div className="contact__policy">
-              <h4 className="contact__policy-title">Política de Reservas</h4>
-              <ul className="contact__policy-list">
-                <li>Cancelación gratuita hasta 48 horas antes</li>
-                <li>Se requiere depósito del 30% para confirmar</li>
-                <li>Check-in: 2:00 PM - Check-out: 11:00 AM</li>
-                <li>Precios sujetos a disponibilidad</li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>

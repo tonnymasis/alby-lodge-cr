@@ -1,6 +1,6 @@
 /* Contact Section Styles */
 .contact {
-  padding: var(--space-5xl) 0;
+  padding: var(--space-4xl) 0;
   background: linear-gradient(135deg, var(--color-light) 0%, var(--color-white) 100%);
 }
 
@@ -52,13 +52,13 @@
 .contact__content {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--space-4xl);
+  gap: var(--space-2xl);
 }
 
 /* Form Section */
 .contact__form-section {
   background: var(--color-white);
-  padding: var(--space-3xl);
+  padding: var(--space-2xl);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-lg);
 }
@@ -150,6 +150,7 @@
   padding: var(--space-lg);
   font-size: var(--fs-lg);
   font-weight: var(--fw-semibold);
+  margin-top: var(--space-xl);
 }
 
 /* Contact Information */

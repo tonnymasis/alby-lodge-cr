@@ -2,6 +2,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
+import ScrollToTop from './components/ui/ScrollToTop'
 import Home from './pages/Home'
 import './styles/App.css'
 
@@ -15,6 +16,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   )
 }
